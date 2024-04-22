@@ -1,0 +1,178 @@
+#poster{
+    height: 300px;
+    width: 700px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    justify-content: center;
+}
+
+#logo{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+}
+
+.fondo{
+    background-image: url(../img/fondo.jpg); /* Con los dos puntos volvemos una carpeta atras para recuperar dichos documentos */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+@font-face {
+    font-family: 'BreakingBad';
+    src: url('../font/Breaking Bad.ttf') format('truetype');
+}
+
+.letra{
+    font-family: 'BreakingBad', sans-serif;
+    color: white;
+}
+
+.helvetica{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grandes{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 0.8;
+}
+
+.peque{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    line-height: 0.8;
+}
+
+table {
+    background-color: black;
+    border:2px solid;
+    font-weight: bold;
+    margin: 30px;
+    
+}
+
+td {
+    border:2px solid black;
+    text-align:center;
+    width:75px;
+    height: 75px;
+    max-height: 70px;
+}
+
+div{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.fondo{
+    background-image: url(../img/fondo.jpg);
+    background-color: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fondoverde{
+    background-color: #0c3e11;
+    background-image: none;
+  }
+
+.noexiste {
+    border-color: black;
+    background-color: black;
+}
+
+#imagen-celda{
+    background-image: url("../img/Tabla\ Periódica/hankschrader.png");
+    background-size: 98%;
+    padding: 3px;
+}
+
+.verde1{
+    background-color: rgba(183,219,34,255)
+}
+
+#morado{
+    background-color:rgb(154, 76, 170);
+}
+
+.verde2{
+   background-color: rgba(205,232,119,255);
+}
+
+.verde3{
+    background-color: rgba(234,246,204,255);
+}
+
+.verde4{
+    background-color: rgba(124,166,5,255);
+}
+
+.verde5{
+    background-color: rgba(91,114,23,255);
+}
+
+.verde6{
+    background-color: rgba(185,197,159,255);
+}
+
+.verde7{
+    background-color: rgba(128,143,80,255);
+}
+
+.verde8{
+    background-color: rgba(196,201,0,255);
+}
+
+.blanco{
+    color: white;
+}
+
+input[type="reset"] {
+    font-size: 14px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    font-size: 14px;
+    background-color: green;
+    color: white; 
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 6px; 
+    cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+input[type="date"],
+input[type="file"] {
+    width: auto;
+}
+
+form {
+    width: 30%;
+    margin: 0 auto;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}

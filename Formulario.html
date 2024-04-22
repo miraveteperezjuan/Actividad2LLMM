@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Formulario</title>
+</head>
+<body class="helvetica fondo grandes">
+    <div>
+    <h1 class="blanco">Breaking Bad - Que comience el juego!</h1>
+    </div>
+    <fieldset>
+    <legend><b>Introduce los siguientes datos</b></legend>
+    <form action="raul.rodriguez@proeducaglobal.com" method="post">
+        <fieldset><legend><b>Datos personales</b></legend>
+        Nombre:* <br><br>
+        <input type="text" name="nombre" id="nombre" placeholder="Juan" required>
+        <br>
+        Apellido 1:*
+        <br><br>
+        <input type="text" name="ap1" id="ap1" placeholder="Sainz" required>
+        <br>
+        Apellido 2:* <br><br>
+        <input type="text" name="ap2" id="ap2" placeholder="Martínez" required>
+        <br>
+        DNI:  <br><br>
+        <input type="text" name="dni" id="dni" placeholder="12345678F" minlength="8" maxlength="8">
+        <br>
+        <label for="direccion">Dirección habitual:</label> <br><br>
+        <input type="text" id="calle" name="calle" placeholder="Calle" required><br>
+        <input type="text" id="numero" name="numero" placeholder="Número" required><br>
+        <input type="text" id="piso" name="piso" placeholder="Piso"><br>
+        Ciudad: <br><br>
+        <input type="text" name="ciudad" id="ciudad" placeholder="Huesca">
+        <br>
+        Código Postal:  <br><br>
+        <input type="text" name="cp" id="cp" placeholder="50013" minlength="5" maxlength="5">
+        <br>
+        Correo electrónico:*  <br><br>
+        <input type="email" name="email" id="email" placeholder="juanmiravete@hotmail.es" required>
+        <br>
+        </fieldset>
+        <fieldset><legend><b>Datos específicos</b></legend>
+            ¿Cúal es tu sexo?
+            <br>
+            <br>
+            <input type="radio" name="sexo" id="" value="H"> Hombre
+            <input type="radio" name="sexo" id="" value="M"> Mujer
+            <input type="radio" name="sexo" id="" value="B"> Binario
+            <input type="radio" name="sexo" id=""value="N"> Prefiero no decirlo
+        <br>
+        <br>
+        Fecha de nacimiento: <input type="date" name="nacimiento" id="">
+        </fieldset>
+        <fieldset><legend><b>Personaje favorito</b></legend>
+            <br>
+            <label for="personajes">Selecciona un personaje de Breaking Bad:</label>
+            <br><br>
+            <select id="personajes" name="personajes">
+              <option value="Jessie Pinkman">Jessie Pinkman</option>
+              <option value="Walter White">Walter White</option>
+              <option value="Saul Goodman">Saul Goodman</option>
+              <option value="Gustavo Fring">Gustavo Fring</option>
+              <option value="Pollos Hermanos">Pollos Hermanos</option>
+              <option value="Otros personajes">Otros personajes</option>
+            </select>
+        </fieldset>
+        <fieldset><legend><b>¿Quieres contarnos algo más de tí?</b></legend>
+            <br>
+        ¿Nos quieres comentar algo?
+        <br>
+        <br>
+        <textarea name="Comentarios" placeholder="Escribir aquí" id="" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        ¿Quieres adjuntar algún archivo?
+        <br>
+        <br>
+        <input type="file" name="Archivo" id="">
+        </fieldset>
+    </fieldset>
+        <br>
+        <input type="reset" value="Borrar datos">
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
